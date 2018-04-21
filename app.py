@@ -43,7 +43,7 @@ def hello():
                             message = x['message']['text']
                             if message in ["hi", "hi there", "hello", "sain bainuu", "сайн уу", "hey", "yo"]:
                                 buttons = []
-                                button = URLButton(title='City live', url='http://11-11.mn/live/')
+                                button = URLButton(title='City live', url='http://103.17.108.244:1111/mjpg/video.mjpg')
                                 buttons.append(button)
                                 button = PostbackButton(title='Open ticket', payload='openticket')
                                 buttons.append(button)
